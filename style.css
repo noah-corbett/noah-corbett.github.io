@@ -1,0 +1,23 @@
+html { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 13pt;}
+body { }
+p { }
+a { color: #398EB5; text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1 { text-align: center; font-size: 200%; padding: 0.5em 0; }
+h2 { padding: 0.5em 0;}
+img { margin:auto; padding: 2em;}
+.special { text-align: center; }
+section { margin:auto;}
+#content { width: 1200px; }
+article { width: 47%; padding: 0.7em; }
+.grid { width: 22%; float:left; padding: 0.7em; }
+#columnLeft { float:left; }
+#columnRight { float:right; }
+#main, #main h2 { clear:left; }
+#teaching #main { background-image: url(images/graph.jpg); background-repeat: no-repeat; background-position: center; min-height: 800px; position: relative;}
+#text { padding: 3em 0; margin:auto; background-color: white; opacity: 0.8; min-height: 800px; }
+nav { background-color:#000000; color: #ffffff; height: 4em; font-size: 90%; margin: -0.5em; }
+nav ul { margin:auto; width: 900px; }
+nav li { list-style:none; float:left; padding: 0.5em 1.5em; margin-top: 1em; }
+nav li a { text-decoration: none; color:#cccccc; border-top: 2px solid #cccccc; padding: 1em;}
+nav li a.active, nav li a:hover { color:#ffffff; border-top:2px solid #ffffff; }
